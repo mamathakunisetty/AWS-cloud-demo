@@ -1,0 +1,9 @@
+#!/bin/bash
+# Launch dummy EC2 instance
+aws ec2 run-instances \
+    --image-id ami-0123456789abcdef0 \
+    --count 1 \
+    --instance-type t2.micro \
+    --key-name demo-key \
+    --security-groups demo-sg
+echo "EC2 instance launched (dummy)"
