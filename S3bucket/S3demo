@@ -1,0 +1,6 @@
+# S3 Bucket Demo
+- **Bucket Name:** demo-bucket
+- **Policy:** Public read access (dummy)
+- **Files:** sample.txt, dummy-data.json
+
+This demonstrates S3 usage without exposing any real data.
