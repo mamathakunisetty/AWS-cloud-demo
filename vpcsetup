@@ -1,0 +1,9 @@
+# VPC Setup Demo
+
+- **VPC Name:** demo-vpc
+- **Subnets:** PublicSubnet, PrivateSubnet
+- **Internet Gateway:** Attached to PublicSubnet
+- **NAT Gateway:** Attached to PrivateSubnet
+- **Routing:** PublicSubnet → IGW, PrivateSubnet → NAT
+
+This is a **dummy configuration** 
